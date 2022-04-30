@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['681553671364018196'] // id xot da bne 
+const myid = ['896749222559367168'] // id xot da bne 
 const jano = new Discord.Client();
 const jano2 = new Discord.Client();
 const jano3 = new Discord.Client();
@@ -46,7 +46,7 @@ jano6.on("ready", () => {
 
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`RAYAN`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
@@ -129,11 +129,11 @@ jano6.on("ready", () => {
 ////// spam krdn ba acc
 
 jano.on('message', message => {
-if (message.content === 'owo') {
+if (message.content === 'R') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`owo daily`)
+        message.channel.send(`RAYAN UP`)
           .then(m => {
             count++;
           })
@@ -221,7 +221,7 @@ if (message.content === 'owo') {
 });
 
 
-jano.login("");
+jano.login("OTcwMDI5MjIzOTQ1MzMwNzI5.Ym2BKw.dR2ZJYggfOFY4-0wkclIXSrQrZg");
 jano2.login("");
 jano3.login("");
 jano4.login("");
